@@ -7,6 +7,7 @@ int main(){
         if(first + second + third > prev) {
             count++;
         }
+        //Is there a  way to still make it work without this if condition in line 11 without using more space than we already have?
         if(second and third)prev = first + second + third;
         third = second;
         second = first;
